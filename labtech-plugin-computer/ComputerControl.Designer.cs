@@ -57,12 +57,12 @@
             this.colID,
             this.colName,
             this.colData});
-            this.dataGridView1.Location = new System.Drawing.Point(4, 28);
+            this.dataGridView1.Location = new System.Drawing.Point(3, 28);
             this.dataGridView1.MultiSelect = false;
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.ReadOnly = true;
             this.dataGridView1.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.dataGridView1.Size = new System.Drawing.Size(809, 420);
+            this.dataGridView1.Size = new System.Drawing.Size(806, 420);
             this.dataGridView1.TabIndex = 1;
             // 
             // colID
@@ -90,7 +90,7 @@
             this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.lblExample);
             this.Name = "ComputerControl";
-            this.Size = new System.Drawing.Size(816, 451);
+            this.Size = new System.Drawing.Size(812, 451);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
